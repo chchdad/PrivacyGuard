@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.cctv18.privacyguard'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.cctv18.privacyguard"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+}
